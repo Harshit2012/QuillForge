@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+#intro {
+    padding: 50px 0;
+}
+
+#features .feature-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#features .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#converter {
+    padding: 50px 0;
+}
+
+#markdown-input {
+    height: 400px;
+}
+
+#html-output {
+    height: 400px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
