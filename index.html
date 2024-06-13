@@ -70,19 +70,21 @@
     <div id="converter" class="container mt-5">
         <h2 class="text-center mb-4">Markdown to HTML Converter</h2>
         <div class="row">
-            <div class="col-md-6">
-                <textarea id="markdown-input" class="form-control" rows="15"
-                    placeholder="Enter Markdown text here..."></textarea>
+            <div class="col-md-4">
+                <textarea id="markdown-input" class="form-control" rows="15" placeholder="Enter Markdown text here..."></textarea>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <pre id="html-output" class="border p-3 bg-light"></pre>
-                <div class="text-center mt-3">
-                    <button id="copy-button" class="btn btn-secondary">Copy HTML</button>
-                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="html-preview" class="border p-3 bg-light"></div>
             </div>
         </div>
         <div class="text-center mt-4">
             <button id="convert-button" class="btn btn-primary">Convert to HTML</button>
+            <button id="copy-html-button" class="btn btn-secondary ml-2">Copy HTML</button>
+            <button id="copy-markdown-button" class="btn btn-secondary ml-2">Copy Markdown</button>
+            <button id="preview-button" class="btn btn-secondary ml-2">Preview HTML</button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
