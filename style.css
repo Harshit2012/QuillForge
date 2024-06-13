@@ -27,12 +27,15 @@ body {
     padding: 50px 0;
 }
 
-#markdown-input {
-    height: 400px;
-}
-
-#html-output {
+#markdown-input,
+#html-output,
+#html-preview {
     height: 400px;
     overflow-y: auto;
     white-space: pre-wrap;
+}
+
+#html-output,
+#html-preview {
+    background-color: #f8f9fa;
 }
